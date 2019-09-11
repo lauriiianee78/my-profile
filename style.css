@@ -1,0 +1,92 @@
+.avatar{
+	height: 400px;
+	border: 50px;
+	border-radius:150px;
+	width: 550px;
+	margin-left: 5px
+}
+body{
+	background-color: #C9B79C;
+	font: 20px;
+}
+h2{
+	color: C36A2D; 
+	font-size: 40px;
+	font-family: Poppins;
+}
+h3{
+	color: 5A3921;
+	font-size: 30px;
+	font-family: Crimson;
+}
+.fa {
+	color: 5A3921;
+	font-size: 25px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+.description {
+	color: 5A3921;
+	font-size: 25px;
+	font-family: Crimson;
+}
+
+p{
+	color: 5A3921;
+	font-size: 25px;
+	font-family: Crimson;	
+}
+a{
+	color: 5A3921;
+	font-size: 25px;
+	font-family: Crimson;
+	text-decoration: none;
+	transition: color 0.3s ease;
+}
+a:hover {
+  color: C36A2D;
+  text-decoration: none;
+}
+.whoiam {
+	background-color: BA9575;
+	border-radius: 20px;
+	box-shadow: 0 10px 30px rgba(0,0,0,.3);
+	margin: 50px;
+	padding: 1.5px 30px 20px 30px;
+}
+.photography {
+	background-color: BA9575;
+	border-radius: 20px;
+	box-shadow: 0 10px 30px rgba(0,0,0,.3);
+	margin: 50px;
+	padding: 1.5px 30px 1.5px 30px;
+}
+.futur {
+	background-color: BA9575;
+	border-radius: 30px;
+	box-shadow: 0 10px 30px rgba(0,0,0,.3);
+	margin: 50px;
+	padding: 1.5px 30px 1.5px 30px;
+}
+.container{
+	width: 700px;
+	margin: 40px auto;
+	display: flex;
+	padding: 16px;
+}
+.social{
+	display: flex;
+	align-items: baseline;
+	justify-content: center;
+}
+.social, h2 {
+	margin-right: 15px;
+}
+.welcome{ 
+	align-items: stretch;
+ }
+ @media (max-width: 720px) {
+  .container {
+    width: 500px;
+
+  }
